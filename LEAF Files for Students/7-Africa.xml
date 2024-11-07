@@ -232,7 +232,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Kval1234/LEAF/main/LEAF%20Files%20for%20Students/7-Africa.xml?place_annotation_20241107154230216#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/placeName[18]"
+			"rdf:value": "TEI/text/body/div/p/placeName[19]"
 		}
 	},
 	"oa:hasBody": {
@@ -469,7 +469,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Kval1234/LEAF/main/LEAF%20Files%20for%20Students/7-Africa.xml?place_annotation_20241107154548577#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/placeName[21]"
+			"rdf:value": "TEI/text/body/div/p/placeName[22]"
 		}
 	},
 	"oa:hasBody": {
@@ -548,7 +548,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Kval1234/LEAF/main/LEAF%20Files%20for%20Students/7-Africa.xml?place_annotation_20241107154719723#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/placeName[17]"
+			"rdf:value": "TEI/text/body/div/p/placeName[18]"
 		}
 	},
 	"oa:hasBody": {
@@ -627,7 +627,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Kval1234/LEAF/main/LEAF%20Files%20for%20Students/7-Africa.xml?place_annotation_20241107154748101#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/placeName[19]"
+			"rdf:value": "TEI/text/body/div/p/placeName[20]"
 		}
 	},
 	"oa:hasBody": {
@@ -1022,7 +1022,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/Kval1234/LEAF/main/LEAF%20Files%20for%20Students/7-Africa.xml?place_annotation_20241107155021414#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p/placeName[20]"
+			"rdf:value": "TEI/text/body/div/p/placeName[21]"
 		}
 	},
 	"oa:hasBody": {
@@ -1513,13 +1513,92 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Kval1234/LEAF/main/LEAF%20Files%20for%20Students/7-Africa.xml?place_annotation_20241107155330532",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-07T20:53:30.532Z",
+	"dcterms:modified": "2024-11-07T20:53:30.532Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Kval1234",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "kassandra valentin"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Kval1234/LEAF/main/LEAF%20Files%20for%20Students/7-Africa.xml?place_annotation_20241107155330532#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Kval1234/LEAF/main/LEAF%20Files%20for%20Students/7-Africa.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Kval1234/LEAF/main/LEAF%20Files%20for%20Students/7-Africa.xml?place_annotation_20241107155330532#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/placeName[17]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q15",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/7-Africa-Ort-1.jpg"/>
 			<div>
 				<head>Replace with your title.</head>
-				<p>This third parte of the <placeName key="world" ref="http://www.wikidata.org/entity/Q16502">vvorld</placeName>,the <placeName key="Ancient Rome" ref="http://www.wikidata.org/entity/Q1747689">auncient</placeName> writers hane dinerfly decided,but as les <placeName key="fifteenth" ref="http://www.wikidata.org/entity/Q28469725">vvitnifeth</placeName> it is now deuyded into forte partes,to vvitt barbaria <placeName key="barbarism" ref="http://www.wikidata.org/entity/Q720113">Barbaris</placeName> is the beftand mofte <placeName key="Fruitful Days Nursery and Primary School" ref="http://www.wikidata.org/entity/Q116416746">frutefull</placeName>, enclofed with the <placeName key="Atlantic Ocean" ref="http://www.wikidata.org/entity/Q97">Atlanike</placeName>, and Mediterato fees, che countries, and the region called Bacha, which coofyacth on Egipt. Nu-media which yeildeth dares &amp;e is of the Arabies called the data countric, is other-wile called Biledulgerid, this <placeName key="being" ref="http://www.wikidata.org/entity/Q203872">becing</placeName> the Secondparte bordereth on the <placeName key="Hashim Aslami" ref="http://dbpedia.org/resource/Hashim_Aslami">Aslamile</placeName> fea in the wett, and the mount Atla in the <placeName key="point" ref="http://www.wikidata.org/entity/Q24529780">poith</placeName>, in rhe calt it rearcheth anto the <placeName key="city" ref="http://www.wikidata.org/entity/Q515">citie</placeName> Eloses, and fouth ward vato the fandic deferts of Labia.Laba the third parte is in the <placeName key="Arabic" ref="http://dbpedia.org/resource/Arabic">Arabeck</placeName> tonguecalled Sarta, which fignifieth wilder-nelle, is <placeName key="beginner" ref="http://www.wikidata.org/entity/Q23759131">beginnech</placeName> at the riuer Nites and reatcheth to the Ablaxtyle fea, having on the fouch the Negroes or Moores, and on the north Numedia.The fourth and laft parte is that which is called the <placeName key="country" ref="http://www.wikidata.org/entity/Q6256">conuy</placeName> of the Negor <placeName key="Monsters in Dungeons &amp; Dragons" ref="http://dbpedia.org/resource/Monsters_in_Dungeons_&amp;_Dragons">Moo-xes</placeName> (for that they are black people) it hath Lia on the north. The ABshopion fca towardes the fouth,the Guess towardes the weitand on the calt lyde the <placeName key="Kingdome" ref="http://www.wikidata.org/entity/Q990430">kingdome</placeName> Eis fanherto be confidered thar all Africa is <placeName key="engraving" ref="http://www.wikidata.org/entity/Q106822736">engroned</placeName> with the Medierans Milangke and Eshiophion feas and the riuer Niles.Some baue accompted Egit and Chugia to bee of Afa,but with more reaton all moderne Colmographets do recon them to belong to Africa.The foath parte or coale of africe was <placeName key="The Undiscovered" ref="http://dbpedia.org/resource/The_Undiscovered">indifcouered</placeName> unto the <placeName key="Year" ref="http://dbpedia.org/resource/Year">yeare</placeName> of our Lord 1497 ahat Va/ca de Gama palled the promoacoric or cape de Bans /peras, and <placeName key="falling" ref="http://www.wikidata.org/entity/Q333495">farling</placeName> round about all the fouth coalt of this parte of the world artyued at Cale in the calt Intes.Aftisa hath great and dry deferts wherein many ftrange beates and <placeName key="Serpents in the Bible" ref="http://dbpedia.org/resource/Serpents_in_the_Bible">ferpents</placeName> are nowrifhed, and in fourepartes there of (as about the riuer Nass fundry new <placeName key="caricature" ref="http://www.wikidata.org/entity/Q482919">cacatures</placeName> us monkets are often produced.</p></div>
+				<p>This third parte of the <placeName key="world" ref="http://www.wikidata.org/entity/Q16502">vvorld</placeName>,the <placeName key="Ancient Rome" ref="http://www.wikidata.org/entity/Q1747689">auncient</placeName> writers hane dinerfly decided,but as les <placeName key="fifteenth" ref="http://www.wikidata.org/entity/Q28469725">vvitnifeth</placeName> it is now deuyded into forte partes,to vvitt barbaria <placeName key="barbarism" ref="http://www.wikidata.org/entity/Q720113">Barbaris</placeName> is the beftand mofte <placeName key="Fruitful Days Nursery and Primary School" ref="http://www.wikidata.org/entity/Q116416746">frutefull</placeName>, enclofed with the <placeName key="Atlantic Ocean" ref="http://www.wikidata.org/entity/Q97">Atlanike</placeName>, and Mediterato fees, che countries, and the region called Bacha, which coofyacth on Egipt. Nu-media which yeildeth dares &amp;e is of the Arabies called the data countric, is other-wile called Biledulgerid, this <placeName key="being" ref="http://www.wikidata.org/entity/Q203872">becing</placeName> the Secondparte bordereth on the <placeName key="Hashim Aslami" ref="http://dbpedia.org/resource/Hashim_Aslami">Aslamile</placeName> fea in the wett, and the mount Atla in the <placeName key="point" ref="http://www.wikidata.org/entity/Q24529780">poith</placeName>, in rhe calt it rearcheth anto the <placeName key="city" ref="http://www.wikidata.org/entity/Q515">citie</placeName> Eloses, and fouth ward vato the fandic deferts of Labia.Laba the third parte is in the <placeName key="Arabic" ref="http://dbpedia.org/resource/Arabic">Arabeck</placeName> tonguecalled Sarta, which fignifieth wilder-nelle, is <placeName key="beginner" ref="http://www.wikidata.org/entity/Q23759131">beginnech</placeName> at the riuer Nites and reatcheth to the Ablaxtyle fea, having on the fouch the Negroes or Moores, and on the north Numedia.The fourth and laft parte is that which is called the <placeName key="country" ref="http://www.wikidata.org/entity/Q6256">conuy</placeName> of the Negor <placeName key="Monsters in Dungeons &amp; Dragons" ref="http://dbpedia.org/resource/Monsters_in_Dungeons_&amp;_Dragons">Moo-xes</placeName> (for that they are black people) it hath Lia on the north. The ABshopion fca towardes the fouth,the Guess towardes the weitand on the calt lyde the <placeName key="Kingdome" ref="http://www.wikidata.org/entity/Q990430">kingdome</placeName> Eis fanherto be confidered thar all Africa is <placeName key="engraving" ref="http://www.wikidata.org/entity/Q106822736">engroned</placeName> with the Medierans Milangke and Eshiophion feas and the riuer Niles.Some baue accompted Egit and Chugia to bee of Afa,but with more reaton all moderne Colmographets do recon them to belong to Africa.The foath parte or coale of <placeName key="Africa" ref="http://www.wikidata.org/entity/Q15">africe</placeName> was <placeName key="The Undiscovered" ref="http://dbpedia.org/resource/The_Undiscovered">indifcouered</placeName> unto the <placeName key="Year" ref="http://dbpedia.org/resource/Year">yeare</placeName> of our Lord 1497 ahat Va/ca de Gama palled the promoacoric or cape de Bans /peras, and <placeName key="falling" ref="http://www.wikidata.org/entity/Q333495">farling</placeName> round about all the fouth coalt of this parte of the world artyued at Cale in the calt Intes.Aftisa hath great and dry deferts wherein many ftrange beates and <placeName key="Serpents in the Bible" ref="http://dbpedia.org/resource/Serpents_in_the_Bible">ferpents</placeName> are nowrifhed, and in fourepartes there of (as about the riuer Nass fundry new <placeName key="caricature" ref="http://www.wikidata.org/entity/Q482919">cacatures</placeName> us monkets are often produced.</p></div>
 		</body>
 	</text>
 </TEI>
